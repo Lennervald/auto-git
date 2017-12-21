@@ -1,0 +1,42 @@
+[
+  {
+    "path": "reverse-proxy",
+    "branch": "master",
+    "run": [
+      "npm install",
+      "pm2 restart reverse-proxy --silent"
+    ]
+  },
+  {
+    "path": "certbot-helper",
+    "branch": "master",
+    "run": [
+      "npm install",
+      "pm2 restart certbot-helper --silent"
+    ]
+  },
+  {
+    "path": "auto-git",
+    "branch": "master",
+    "run": [
+      "npm install",
+      "pm2 restart auto-git --silent"
+    ]
+  },
+  {
+    "path": "lennervald.se",
+    "branch": "master",
+    "run": [
+      "npm install",
+      "pm2 restart lennervald.se --silent"
+    ]
+  },
+  {
+    "path": "nyheter.lennervald.se",
+    "branch": "master",
+    "run": [
+      "npm install",
+      "pm2 restart nyheter.lennervald.se --silent"
+    ]
+  }
+]
