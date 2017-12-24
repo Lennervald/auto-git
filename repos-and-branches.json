@@ -30,13 +30,5 @@
       "npm install",
       "pm2 restart lennervald.se --silent"
     ]
-  },
-  {
-    "path": "nyheter.lennervald.se",
-    "branch": "master",
-    "run": [
-      "npm install",
-      "pm2 restart nyheter.lennervald.se --silent"
-    ]
   }
 ]
