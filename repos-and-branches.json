@@ -32,11 +32,11 @@
     ]
   },
   {
-    "path": "vip",
+    "path": "viprake.com",
     "branch": "master",
     "run": [
       "npm install",
-      "pm2 restart vip --silent"
+      "pm2 restart viprake.com --silent"
     ]
   }
 ]
