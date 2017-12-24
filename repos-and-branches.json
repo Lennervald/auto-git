@@ -33,7 +33,7 @@
   },
   {
     "path": "vip",
-    "branch": "production",
+    "branch": "master",
     "run": [
       "npm install",
       "pm2 restart vip --silent"
