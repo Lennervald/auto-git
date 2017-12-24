@@ -30,5 +30,13 @@
       "npm install",
       "pm2 restart lennervald.se --silent"
     ]
+  },
+  {
+    "path": "vip",
+    "branch": "production",
+    "run": [
+      "npm install",
+      "pm2 restart vip --silent"
+    ]
   }
 ]
